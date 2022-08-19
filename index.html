@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <div class="calculator">
+        <div id="screen">
+            0 
+        </div>
+        <div class="button operators">
+            <button value="/" onclick="calc(value)">/</button>
+            <button value="*" onclick="calc(value)">x</button>
+            <button value="-" onclick="calc(value)">-</button>
+            <button value="+" onclick="calc(value)">+</button>
+
+            <button onclick="clearscreen()">DEL</button>
+        </div>
+        <div class="button digits">
+            <button value="1" onclick="calc(value)">1</button>
+            <button value="2" onclick="calc(value)">2</button>
+            <button value="3" onclick="calc(value)">3</button>
+            <button value="4" onclick="calc(value)">4</button>
+            <button value="5" onclick="calc(value)">5</button>
+            <button value="6" onclick="calc(value)">6</button>
+            <button value="7" onclick="calc(value)">7</button>
+            <button value="8" onclick="calc(value)">8</button>
+            <button value="9" onclick="calc(value)">9</button>
+            <button value="0" onclick="calc(value)" class="zero">0</button>
+            <button value="." onclick="calc(value)">.</button>
+            <button onclick="result()" class="equal">=</button>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+<script src="script.js"></script>    
+</body>
+</html>
