@@ -4,7 +4,7 @@ function calc(value){
     screen.innerHTML += value;
 }
 function clearscreen(){
-    screen.innerHTML ="0";
+    screen.innerHTML ="";
 }
 function result(){
     var result = eval(screen.innerHTML);
