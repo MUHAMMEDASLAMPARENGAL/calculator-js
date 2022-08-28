@@ -14,7 +14,7 @@ h1{
     border-radius: 15px;
     align-items: center;
 }
-#screen{
+#value{
     padding: 16px;
     text-align: right;
     color: #fff;
@@ -51,7 +51,7 @@ button:hover{
 .digits button:hover{
     background-color: #303642;
 }
-.equal{
+#equal{
     border-radius: 0px 0px 15px 0px;
 }
 .zero{
