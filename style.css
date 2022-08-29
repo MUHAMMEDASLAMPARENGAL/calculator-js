@@ -12,17 +12,22 @@ h1{
     margin: auto;
     background-color: #131a26;
     border-radius: 15px;
+    text-align: center;
     align-items: center;
 }
-#value{
-    padding: 16px;
+#screen{
+    height: 77px;
     text-align: right;
     color: #fff;
     font-size: 30px;
     font-weight: 300;
 }
+#value{
+    padding: 17px;
+}
 button{
-    padding: 16px;
+    width: 133px;
+    height: 52px;
     border: none;
     appearance: none;
     outline:none;
