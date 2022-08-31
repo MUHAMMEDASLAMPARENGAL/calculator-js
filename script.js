@@ -44,6 +44,7 @@ const display1El = document.querySelector(".display-1");
             dis1Num += dis2Num + " " + name + " ";
             display2El.innerText = "";
             dis2Num = "";
+            display2El.innerText = result;
 
         }
 
